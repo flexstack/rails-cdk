@@ -26,6 +26,6 @@ cd infra
 npm install
 # Bootstrap the CDK environment
 cdk bootstrap --qualifier railscdk
-# Deploy the stack
+# Deploy the stacks
 cdk deploy --all
 ```
