@@ -18,7 +18,7 @@ See the [CDK code](./infra/bin/infra.ts) for the full architecture.
 First, you need to install [aws-cdk](https://www.npmjs.com/package/aws-cdk).
 
 Next, create an [SSM parameter](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html)
-with the Rails master key at `/rails-tf-example/prod/RAILS_MASTER_KEY`. Your master key can be found in the `config/master.key` file.
+with the Rails master key at `/rails-cdk/prod/RAILS_MASTER_KEY`. Your master key can be found in the `config/master.key` file.
 This key is used to decrypt the Rails credentials file in the ECS task definition.
 
 ```bash
